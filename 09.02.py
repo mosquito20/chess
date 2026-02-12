@@ -290,7 +290,7 @@ while running:
                 turn="w"
 
             if giveup_btn.collidepoint(mx,my):
-                status="YOU GAVE UP"
+                status="YOU GAVE UP, YOU ARE"
 
             if turn=="w" and mx<BOARD_SIZE:
                 r,c = my//SQ, mx//SQ
